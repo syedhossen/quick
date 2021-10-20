@@ -10,174 +10,23 @@ body{
 }
 /*Common CSS Ends*/
 
-/*Notary Header Starts */
-.nottary{
-	
-	padding: 8px 0px;
-}
-.notaryh1 {
-	text-align: center;
-}
-.notaryheader{
-
-}
-.notarywrapper{
-	width: 60%;
-	margin: 0px auto;
-    overflow: hidden;
-
-}
-.notarylogo{
-	float: left;
-	width: 18%;
-
-}
-.notarylogo img{
-	width: 100%;
-}
-.notarymenu{
-	float: right;
-	width: 81%;
-	margin-top: 5px;
-}.notarymenu ul{
-	float: right;
-}
-
-
-.notarymenu li{
-	list-style:none;
-	float: left;
-	}
-
-
-.notarymenu li a{
-	text-decoration:none;
-	padding: 5px 9px;
-	color: black;
-	display: inline-block;
-	font-size:14px;
-
-
-}
-.notarymenu li:first-child a{
-	color: #DD95A3;
-
-}
-.notarymenu li:last-child a{
-	padding-right: 0px;
-
-}
-
-
-/*Notary Header Ends */
-
-/*Blue Header CSS Starts*/
-.blueheader{
-	background-color:#121B2A;
-	 
-}
-.bluewrapper{
-	width: 80%;
-	margin: 0px auto;
-	/*border: 1px solid red;*/
-	overflow: hidden;
-}
-.blueimg{
-	float: left;
-
-}
-.bluemenu{
-	width: 70%;
-	float: right;
-	/*border: 2px solid black;*/
-}
-
-.bluelogin{
-	/*border: 1px solid blue;*/
-	overflow :hidden;
-}
-.bluelogin ul{
-	float: right;
-}
-.bluelogin ul li{
-    list-style: none;
-    float: left;
-	}
-
-.bluelogin ul li a {
-	display: inline-block;
-	text-decoration: none;
-	padding: 5px 15px;
-	text-transform: uppercase;
-}
-.bluelogin ul li:first-child a{
-	background-color: white;
-	color: black;
-}
-.bluelogin ul li:last-child a {
-	background-color: #0078BD;
-	color: white;
-}
-
-.navbar{
-	/*border: 1px solid yellow;*/
-	margin-top: 12px;
-	margin-bottom: 0;
-	overflow :hidden;
-}
-.navbar ul{
-	float: right;
-}
-.navbar ul li{
-    list-style: none;
-    float: left;
-	}
-
-.navbar ul li a {
-	display: inline-block;
-	text-decoration: none;
-	padding: 15px 15px;
-	text-transform: uppercase;
-	color: white;
-
-}
-.navbar ul li:first-child a {
-	display: inline-block;
-	text-decoration: none;
-	padding: 15px 15px;
-	text-transform: uppercase;
-	color: #0078BD;
-}
-.navbar ul li:last-child a {
-	padding-right: 0;
-}
-/*Blue Header CSS Ends*/
 /*Header CSS Starts*/
-
-
 
 .quickheader{
 	padding:  0;
-	
-}
+	}
 .quickwrapper{
 	margin: 0px auto;
 	width: 85%;
 	overflow: hidden;
-	
 		}
 .logo{
-
 	width: 10%;
 	float: left;
-	
-}
+	}
 .logo img{
-	
-
-    width: 80%;
+	width: 80%;
     padding: 10px 0px;
-
 }
 .menu{
 	width: 55%;
@@ -186,19 +35,15 @@ body{
 }
 .menu ul{
 	float: right;
-
 }
 .menu ul li{
 	list-style:none;
 	float: left;
-	
-
-}
+	}
 .menu ul li a {
 	text-decoration: none;
 	padding: 20px 20px;
 	display: inline-block;
-
 }
 .menu ul li:last-child a {
 	padding-right: 0;
@@ -206,7 +51,6 @@ body{
 /*Header Ends*/
 /*Banner Starts*/
 .banner{
-
 }
 .bannerwrapper{
 	width: 65%;
@@ -221,7 +65,6 @@ body{
 .bannerh1{
 	font-size: 53px;
     line-height: 61px;
-	
 }
 .banner_span{
 	color: #0084FF;
@@ -233,27 +76,25 @@ body{
 }
 .bannerimage img{
 	width: 65%;
+	transition: 3s;
 }
+.bannerimage img:hover{
+	transform: scale(0.8);
 
-
+}
 /*Banner Ends*/
-
 /*About Starts*/
 .aboutcontent{
 overflow: hidden;
 color: #2E2656;
-
 }
 .aboutheader{
-	
 	width: 40%;
     float: left;
     text-align: right;
-
     padding: 0px 1px 0px 78px;
     /* padding-left: 50px; */
     margin: 0px;
-
 }
 .aboutheader h2{
 	margin: 0px;
@@ -267,27 +108,19 @@ color: #2E2656;
 	width: 40%;
     float: right;
     color: #2E2656;
-   
     padding: 0px 74px 0px 0px;
 }
 .aboutproject h1{
 	   font-size: 40px;
-	   
-	  
-}
-
- 
-
+	}
 
 /*About Ends*/
 /*Service Starts*/
 .service{
-
-margin-top: 70px;
+		margin-top: 70px;
 }
 .serviceimages{
     width: 28%;
-
     padding: 50px 20px;
     color: #0F2656;
     float: left;
@@ -305,8 +138,7 @@ margin-top: 70px;
 .serviceimage1{
 }
 .serviceimage1 img{
-width: 100%;
-
+	width: 100%;
 }
 .serviceimages:last-child{
 	margin-right: 0px;
@@ -322,7 +154,6 @@ margin: 15px 0px;
     line-height: 25px;
     font-size: 18px;
 }
-
 /*Service Ends*/
 .footertext{
 	background-color: #008AFF;
@@ -331,7 +162,7 @@ margin: 15px 0px;
 	margin-top: 60px;
 	color: #9ec7ff;
 }
-.footse{
+.footsec{
 	color: white;
 	font-weight: bold;
 	letter-spacing: 4px;
