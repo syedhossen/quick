@@ -42,12 +42,13 @@ body{
 	padding: 20px 20px;
 	display: inline-block;
 }
+/*.menu ul li a:hover{
+	color: blue;
+}*/
 .menu ul li:last-child a {
 	padding-right: 0;
 }
-.menu ul li a:hover{
-	color: blue;
-}
+
 /*Header Ends*/
 /*Banner Starts*/
 .banner{
@@ -89,7 +90,7 @@ overflow: hidden;
 color: #2E2656;
 }
 .aboutheader{
-	width: 40%;
+    width: 40%;
     float: left;
     text-align: right;
     padding: 0px 1px 0px 78px;
