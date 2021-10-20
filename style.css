@@ -2,11 +2,8 @@
 *{
 	margin: 0px;
 }
-
-
 body{
 	font-family: sans-serif;
-
 }
 /*Common CSS Ends*/
 
@@ -47,6 +44,9 @@ body{
 }
 .menu ul li:last-child a {
 	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: blue;
 }
 /*Header Ends*/
 /*Banner Starts*/
